@@ -7,7 +7,7 @@ sites = [
     "https://www.google.com",
     "https://www.github.com",
     "https://www.youtube.com",
-    "https://www.airbnbb.com.br"
+    "https://www.airbnbb.com.br" # erro proposital na digitação da URL do site do airbnb, causando erro
 ]
 
 # URL do webhook do Discord
