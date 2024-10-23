@@ -14,7 +14,7 @@ sites = [
     "https://www.google.com",
     "https://www.github.com",
     "https://www.youtube.com",
-    "https://www.airbnbb.com.br"
+    "https://www.airbnbb.com.br"  # erro de digitação na URL proposital para teste
 ]
 
 def send_notification(site):
