@@ -33,7 +33,7 @@ def monitor_site(site):
         print(f"Tentando acessar {site}, tentativa {attempt + 1}...")
         try:
             response = requests.get(site, timeout=5) # faz a requisição para endereço de site e aguarda no máximo 5 segundos para um resposta
-            if 200 <= response.status_code < 300 : # se o status code estiver entre 200-299, está ok e retorna
+            if 200 >= response.status_code < 300 : # se o status code estiver entre 200-299, está ok e retorna
                 print(f"{site} está online com status {response.status_code}.")
                 return # finaliza a função
             else:
